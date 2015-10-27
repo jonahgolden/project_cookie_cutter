@@ -1,0 +1,47 @@
+# Jonah Golden, Assignment 1, 2015-10-27
+# Computational project cookie cutter
+# What it does: This script creates a directory structure and documentation files for a new computational project.
+# How to use it: Type "bash comp_proj_creator" and the root directory containing all other directories and files will be called new_project.
+
+# First, create the root directory for the entire project and names it new_project 
+mkdir new_project
+
+# Next, create an empty file name LICENSE.md in the root directory
+touch new_project/LICENSE.md
+
+# Next, create the 5 main directories within the root directory, and the files and directories within in them
+
+# First, create the planning directory for notes and miscellaneous files including a notebook document
+mkdir new_project/planning
+# Create a notebook document for documenting the process of this project
+touch new_project/planning/notebook.txt
+# Now, create a README.md document that explains this directory
+echo "This directory is for miscellaneous files, notes, objectives, etc. It also contains the notebook, which is for chronological entries throughout the project process including observations, ideas, failures, links, images, tables, etc." > new_project/planning/README.md
+ 
+# Second, create the data directory for storing fixed data sets
+mkdir new_project/data
+# Now create a README.md for the data directory that explains what the data directory is used for
+echo "This directory is for storing data sets." > new_project/data/README.md
+
+# Third, create the results directory, two subdirectories (tables and plots), and a README.md for each
+mkdir new_project/results 
+echo "This directory is for storing all results, and is organized into two subdirectories: tables and plots." > new_project/results/README.md
+mkdir new_project/results/tables.txt
+echo "This subdirectory is for all results that are in the form of tables and should be organized chronologically." > new_project/results/tables.txt/README.md
+mkdir new_project/results/plots.txt
+echo "This subdirectory is for all results that are in the form of plots and should be organized chronologically." > new_project/results/plots.txt/README.md
+
+# Fourth, create the src directory, two subdirectories (scripts and lib), and a README.md for each
+mkdir new_project/src
+echo "This directory is for storing all code used in this project" > new_project/src/README.md
+mkdir new_project/src/scripts
+echo "This subdirectory is for storing all scripts created by me in this project" > new_project/src/scripts/REAME.md
+mkdir new_project/src/lib
+echo "This subdirectory is for storing all codes reused from other projects" > new_project/src/lib/README.md
+
+
+# Fifth, create the doc directory
+mkdir new_project/doc
+# Now, create the documents within this directory
+# Now, create a README.md document that explains this directory
+echo "This directory is for the manuscript, all final figures and data, references, etc." > new_project/doc/README.md"
