@@ -35,7 +35,7 @@ echo "This subdirectory is for all results that are in the form of plots and sho
 mkdir new_project/src
 echo "This directory is for storing all code used in this project" > new_project/src/README.md
 mkdir new_project/src/scripts
-echo "This subdirectory is for storing all scripts created by me in this project" > new_project/src/scripts/REAME.md
+echo "This subdirectory is for storing all scripts created by me in this project" > new_project/src/scripts/README.md
 mkdir new_project/src/lib
 echo "This subdirectory is for storing all codes reused from other projects" > new_project/src/lib/README.md
 
