@@ -1,4 +1,3 @@
-# Jonah Golden, Assignment 1, 2015-10-27
 # Computational project cookie cutter
 # What it does: This script creates a directory structure and documentation files for a new computational project.
 # How to use it: Type "bash comp_proj_creator" and the root directory containing all other directories and files will be called new_project.
