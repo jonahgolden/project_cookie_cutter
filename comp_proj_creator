@@ -25,10 +25,10 @@ echo "This directory is for storing data sets." > new_project/data/README.md
 # Third, create the results directory, two subdirectories (tables and plots), and a README.md for each
 mkdir new_project/results 
 echo "This directory is for storing all results, and is organized into two subdirectories: tables and plots." > new_project/results/README.md
-mkdir new_project/results/tables.txt
-echo "This subdirectory is for all results that are in the form of tables and should be organized chronologically." > new_project/results/tables.txt/README.md
-mkdir new_project/results/plots.txt
-echo "This subdirectory is for all results that are in the form of plots and should be organized chronologically." > new_project/results/plots.txt/README.md
+mkdir new_project/results/tables
+echo "This subdirectory is for all results that are in the form of tables and should be organized chronologically." > new_project/results/tables/README.md
+mkdir new_project/results/plots
+echo "This subdirectory is for all results that are in the form of plots and should be organized chronologically." > new_project/results/plots/README.md
 
 # Fourth, create the src directory, two subdirectories (scripts and lib), and a README.md for each
 mkdir new_project/src
@@ -43,4 +43,4 @@ echo "This subdirectory is for storing all codes reused from other projects" > n
 mkdir new_project/doc
 # Now, create the documents within this directory
 # Now, create a README.md document that explains this directory
-echo "This directory is for the manuscript, all final figures and data, references, etc." > new_project/doc/README.md"
+echo "This directory is for the manuscript, all final figures and data, references, etc." > new_project/doc/README.md
